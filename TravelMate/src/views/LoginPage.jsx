@@ -179,7 +179,12 @@ export function SimpleLoginForm({ url }) {
             <div className="w-full border-t border-gray-300"></div>
           </div>
           <div className="mt-6 flex justify-center items-center">
-            <GoogleLogin onSuccess={googleLogin} />
+            <GoogleLogin
+              onSuccess={googleLogin}
+              onError={(err) => {
+                console.log(err);
+              }}
+            />
           </div>
         </Card>
       </div>

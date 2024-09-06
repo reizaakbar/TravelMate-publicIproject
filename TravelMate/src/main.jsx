@@ -8,7 +8,7 @@ import { store } from "./app/store.js";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <GoogleOAuthProvider clientId="917358124860-pvnv7sjg3o0g5l5bcf1g53tfuosm8g2g.apps.googleusercontent.com">
+    <GoogleOAuthProvider clientId="250353610854-gctdb9c0mdjq57bpao1e00uv769mhkoj.apps.googleusercontent.com">
       <Provider store={store}>
         <App />
       </Provider>
