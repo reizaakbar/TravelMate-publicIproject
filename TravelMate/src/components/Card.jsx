@@ -45,7 +45,7 @@ export function CardDefault({ name, review, address, rate, image }) {
           </Typography>
         </CardBody>
         <CardFooter className="pt-0">
-          <Button onClick={toggleModal}>Show More</Button>
+          {/* <Button onClick={toggleModal}>Show More</Button> */}
         </CardFooter>
       </Card>
 
