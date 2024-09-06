@@ -2,7 +2,6 @@ import React from "react";
 import { Card, CardBody, Typography } from "@material-tailwind/react";
 import { useLocation } from "react-router-dom";
 
-// Updated parseData function
 const parseData = (data) => {
   if (typeof data !== "string") {
     console.error("Data is not a string:", data);

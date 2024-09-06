@@ -31,10 +31,8 @@ export const reviewSlice = createSlice({
   },
 });
 
-// Secara otomatis dari slice yang dibuat akan menyediakan action creatornya.
 export const { fetchPending, fetchSuccess, fetchReject } = reviewSlice.actions;
 
-// fungsi di bawah ini disebut thunk dan memungkinkan kita menjalankan action kita secara async.
 export const fetchAsync = () => async (dispatch) => {
   try {
     dispatch(fetchPending());

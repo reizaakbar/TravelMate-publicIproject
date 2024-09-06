@@ -37,7 +37,6 @@ export default function MyReviews() {
         },
       });
 
-      // Update the state to remove the deleted review
       setReviews(reviews.filter((review) => review.id !== id));
     } catch (error) {
       console.error("Failed to delete review:", error);

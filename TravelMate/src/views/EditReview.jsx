@@ -73,7 +73,7 @@ export default function EditReview() {
     if (file) {
       updatedData.append("image", file);
     } else {
-      updatedData.append("image", formData.image); // Send existing image URL if no new file is selected
+      updatedData.append("image", formData.image);
     }
 
     try {
