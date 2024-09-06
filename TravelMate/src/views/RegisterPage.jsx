@@ -128,7 +128,7 @@ export function SimpleRegistrationForm({ url }) {
                 Sign Up
               </Button>
               <Typography
-                color="white"
+                color="black"
                 className="mt-4 text-center font-normal"
               >
                 Already have an account?{" "}
